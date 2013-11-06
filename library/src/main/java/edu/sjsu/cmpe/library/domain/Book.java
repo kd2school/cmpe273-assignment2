@@ -127,5 +127,17 @@ public class Book {
     public void setStatus(Status status) {
 	this.status = status;
     }
+    
+    
+    public void printBook()
+    {
+    	System.out.println("---BOOK---");
+    	System.out.println("isbn: " + isbn);
+		System.out.println("title: " + title);
+		System.out.println("category: " + category);
+		System.out.println("coverimage: " + coverimage.toString());
+		System.out.println("status: " + status.toString());
+		
+	}
 
 }
